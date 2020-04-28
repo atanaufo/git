@@ -33,7 +33,7 @@ git remote add <pode ser qualquer nome normalmente origin> <caminho do servidor>
 git remote add origin https://github.com/atanaufo/git.git
 
 
-6 - Git Push - realiza o envio da pasta ou conteúdo para o servidor remoto.
+6 - Git Push - Envia/upload o diretório ou arquivo para o servidor remoto:
 
 git push --set-upstream origin master -f 
 onde a opção -f irá forçar o processo e substituir os arquivos existente no servidor remoto.
@@ -41,13 +41,10 @@ onde a opção -f irá forçar o processo e substituir os arquivos existente no 
 Depois de sincronizado é apenas executar:
 git push
 
-7 - Git Pull - download da origem:
-	Observação: Mais usual quando tiver sendo usado por outro usuários de desenvolvimento.
-	Ou seja, projeto sendo alterado por mais de uma pessoa.
-
-Olá você recebeu meu arquivo do github atualizado!!!
-
-
+7 - Git Pull - Recupera/download o diretório ou arquivo do servidor remoto:
+	Observação: 
+	Mais usual quando se tiver mais de uma pessoa trabalhando com o arquivo ou projeto.
+	
 
 
 8 - Clonando um repositório:

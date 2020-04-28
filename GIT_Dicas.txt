@@ -25,8 +25,12 @@ git rm --cached <Diretório ou nome do arquivo> ou *
 git commit -m "Primeiro commit do projeto."
 
 
-5 - 
+5 - Git remote para vincular o meu repositório local para um servidor:
+Nesta etapa iremos configurar com os dados do nossa conta remota, por exemplo: github.
+
+git remote add <pode ser qualquer nome normalmente origin> <caminho do servidor>
+
+git remote add origin https://github.com/atanaufo/git.git
 
 
-
-6 - 
+6 - Git Push - realiza o envio da pasta ou conteúdo para o servidor remoto.

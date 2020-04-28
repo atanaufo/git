@@ -41,4 +41,8 @@ onde a opção -f irá forçar o processo e substituir os arquivos existente no 
 Depois de sincronizado é apenas executar:
 git push
 
-7 - 
+7 - Git Pull - baixar arquivos alterados no servidor remoto.
+
+
+8 - Clonando um repositório:
+

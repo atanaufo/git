@@ -1,5 +1,5 @@
 
--- GIT:
+-- GIT - Etapas:
 
 -- Configurar dados do meu repositório:
 git config --global user.name "Atanaufo Ramalho"
@@ -19,6 +19,7 @@ git add <Diretório ou nome do arquivo> ou * para pegar todos os arquivos dentro
 
 Para remover da stage local:
 git rm --cached <Diretório ou nome do arquivo> ou *
+
 
 4 - Realizando o Commit:
 git commit -m "Primeiro commit do projeto."

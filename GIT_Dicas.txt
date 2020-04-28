@@ -47,5 +47,12 @@ git push
 	
 
 
-8 - Clonando um repositório:
+8 - Clone:
+
+git clone <endereço do repositório>
+git clone https://github.com/atanaufo/git_teste.git
+
+OBS: Atentar que não pode já possuir um .git se não pode sobreescrever.
+
+
 

@@ -34,8 +34,11 @@ git remote add origin https://github.com/atanaufo/git.git
 
 
 6 - Git Push - realiza o envio da pasta ou conteúdo para o servidor remoto.
-git push
-git push --set-upstream origin master
 
+git push --set-upstream origin master -f 
+onde a opção -f irá forçar o processo e substituir os arquivos existente no servidor remoto.
+
+Depois de sincronizado é apenas executar:
+git push
 
 7 - 
